@@ -18,7 +18,7 @@ function MediaCard({ title, image, description }: MediaCardProps) {
       sx={{
         maxWidth: 300,
         maxHeight: 500,
-        marginLeft:13,
+        marginLeft: isFirstCard ? 0 : 13,
         marginRight:4,
         marginTop: 7,
         backgroundColor: "#f0f0f0",
@@ -69,7 +69,8 @@ export default function App() {
         title="HEALTHTECH AWARD"
         image="https://www.kandasoft.com/wp-content/uploads/2023/04/Health-Tech-Digital-Award.jpg"
         description="HealthTech Award, celebrating healthtech innovations that make a difference for people's lives, is now open for companies in the Nordics."
-      />
+       isFirstCard={true}
+        />
       <MediaCard
         title="SAFETY INNOVATION"
         image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuBodTlrKUvK9H7rmWUCTZ_TdqdQ4dPt3NN9IDqVsu0wejGPffcP9lyzr9ChWa2OFrCr4&usqp=CAU"
