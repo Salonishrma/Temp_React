@@ -12,10 +12,10 @@ function App() {
       <ResponsiveAppBar />
       <SlideExample />
       <MediaCard/>
+      <BasicSpeedDial/>
       <BasicTable/>
       <BasicRating/>
       <LabelBottomNavigation/>
-      <BasicSpeedDial/>
     </div>
   );
 }
