@@ -18,7 +18,7 @@ function MediaCard({ title, image, description }: MediaCardProps) {
       sx={{
         maxWidth: 300,
         maxHeight: 500,
-        marginLeft:20,
+        marginLeft:10,
         marginTop: 7,
         backgroundColor: "#f0f0f0",
         color: "#1976d2",
